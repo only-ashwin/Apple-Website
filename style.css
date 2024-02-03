@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+
+section {
+    position: relative;
+    top: 44px;
+}
+
+.nav-bar {
+    height: 44px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(20, 20, 21, 0.95);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar ul a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+    margin: 0px 19px 0px 19px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.nav-bar .nav-links .logo {
+    font-size: 17px;
+}
+
+.disc-content {
+    height: 44px;
+    z-index: 0;
+    background-color: #1d1d1f;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.banner {
+    height: 580px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.iphone-banner1 {
+    color: #e3dbdb;
+    display: flex;
+    justify-content: center;
+    background-image: url("image/iphone-15-pro.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.iphone-banner2 {
+    background-color: white;
+    background-image: url("image/iphone-15.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.iphone-banner2 .banner-content {
+    margin-top: 10px;
+    padding-top: 50px;
+}
+
+.iwatch-banner3 {
+    background-image: url("image/iwatch-banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.banner-content {
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2.5rem;
+}
+
+.banner-content p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.banner-content a {
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.banner-content a i {
+    font-size: 9px;
+} 
+
+.box-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 550px;
+    width: 50%;
+    background-color: black;
+    margin: 5px;
+}
+
+.box-image1 {
+    background-image: url("image/box-iwatch.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-image2 {
+    background-image: url("image/box-image2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-image3 {
+    background-image: url("image/box-image3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-image4 {
+    background-image: url("image/box-image4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-image5 {
+    background-image: url("image/box-image5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-image6 {
+    background-image: url("image/box-image6.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    background-color: rgb(245, 245, 247);
+    height: 800px;
+    margin-top: 50px;
+}
+
+.foot-content {
+    display: flex;
+    justify-content: space-between;
+}
